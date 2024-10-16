@@ -1,0 +1,116 @@
+/* -------- BODY, HTML -------- */
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+/* -------- BODY -------- */
+
+body {
+    width: 700px;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    color: #282828;
+}
+
+/* -------- HEADER -------- */
+
+header {
+    background-color: #282828;
+    color: whitesmoke;
+    padding: 25px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+header ul li {
+    cursor: pointer;
+}
+
+.icon {
+    width: 25px;
+}
+
+.burger-menu {
+    margin-left: auto;
+}
+
+/* -------- MAIN -------- */
+
+/* -------- MAIN TITLE SECTION -------- */
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 25px;
+}
+
+/* -------- SPACE SECTION -------- */
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.space-section {
+    position: relative;
+}
+
+.exclusive-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.space-metadata {
+    display: flex;
+    margin: 0 25px;
+}
+
+.btn-book {
+    border: none;
+    background-color: #cd6858;
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: auto;
+    align-self: center;
+}
+
+/* -------- CHATBOX -------- */
+
+.chatbox {
+    width: 70px;
+    height: 70px;
+    background-color: #dda15e;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.chatbox img {
+    width: 35px;
+    margin: auto;
+}
